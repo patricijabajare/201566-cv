@@ -12,7 +12,7 @@
     <!-- -->
 
     <!-- Links to our additional CSS styles -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link  rel="stylesheet" href="css/styles.css">
 
     <!-- Alternative CSS for demonstration purposes. You must deactivate the Bootstrap CSS to activate this one. -->
     <!-- 
@@ -24,7 +24,9 @@
   <!-- End of the head -->
 
   <!-- Start of the body, which contains everything visible on the page -->
-  <body class="d-flex flex-column h-100 justify-content-between">
+  <body style="background-color:black;"
+class="d-flex flex-column h-100 justify-content-between">
+	</body>
 
     <!--
       We use a Bootstrap container to align contents.
@@ -38,7 +40,8 @@
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
         The "row" class is used for the Bootstrap grid.
       -->
-      <header class="row resume-header justify-content-center">
+      <header class= "row resume-header justify-content-center">
+			  <body style="background-color:mediumseagreen;">
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
@@ -48,8 +51,8 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img src="images/profile.jpg" alt="Portrait of Firstname Lastname" width="153" height="140" class="w-150 rounded-circle my-3">
-        </div>
+          <img src="images/profile.jpg" alt="Portrait of Firstname Lastname" width="160" class="w-150 rounded-circle my-3">
+        </div> 
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
@@ -57,6 +60,7 @@
           <h1 class="fw-bolder">Patricija Bajare</h1>
           <h5 class="fst-italic tagline">UX designer in training</h5>
         </div>
+		  </body>
       </header>
 
       <!--
